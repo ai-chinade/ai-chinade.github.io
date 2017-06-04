@@ -1,2 +1,1 @@
-# ai-chinade.github.io
-homepage
+# 中德人工智能协会
