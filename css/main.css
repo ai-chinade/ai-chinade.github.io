@@ -1,0 +1,117 @@
+.navbar-brand {
+    height: 35px;
+    background: url("../logo/logo-color-white.png") no-repeat center;
+    background-size: contain;
+    /* background-color: #cccccc; */
+    width: 20vw;
+    margin-left: 10px;
+}
+.navbar-brand img {
+    height: 100%;
+    width: 100%;
+}
+
+#mainNav {
+    background-color: transparent;
+}
+
+#mainNav .navbar-toggler {
+    background-color: #ee2430;
+}
+
+.btn-xl {
+    border-color: #ee2430;
+    background-color: #ee2430;
+}
+
+::selection {
+    background: #fed136;
+}
+
+body {
+    -webkit-tap-highlight-color: #ee2430;
+}
+
+.text-primary {
+    color: #ee2430!important;
+}
+
+a {
+    color: #ee2430;
+}
+
+#mainNav .container .navbar-nav .nav-item .nav-link.active, #mainNav .container .navbar-nav .nav-item .nav-link:hover {
+    color: #ee2430;
+}
+
+.center-block {float: none !important}
+
+.section-subheading {
+    font-style: normal !important;
+    line-height: 1.6;
+}
+
+.navbar-nav .ml-auto {
+    background: rgba(238, 36, 48, 0.62);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#mainNav.navbar-shrink {
+    padding: 0;
+    background-color: rgba(34, 34, 34, 0.38);
+}
+
+.team-member img {
+    width: 150px;
+    height: 150px;
+}
+
+header.masthead {
+    background-image: url("../img/header/bg1.jpg");
+}
+
+.typed-cursor{
+    font-size: 75px;
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+.typed-fade-out{
+    opacity: 0;
+    animation: 0;
+    transition: opacity .25s;
+}
+
+.intro-heading.typewriter-ph {
+    font-family: monospace !important;
+    font-style: normal !important;
+    line-height: 1.5em;
+    min-height: 4.5em;
+}
+
+subtitle {
+    font-size: 50px;
+    color: #fed136;
+}
+
+maintitle {
+    color: whitesmoke;
+}
