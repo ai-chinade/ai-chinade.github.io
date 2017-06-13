@@ -1,5 +1,5 @@
 .navbar-brand {
-    height: 35px;
+    height: 40px;
     background: url("../logo/logo-color-white.png") no-repeat center;
     background-size: contain;
     /* background-color: #cccccc; */
@@ -25,7 +25,7 @@
 }
 
 ::selection {
-    background: #fed136;
+    background: rgba(254, 209, 54, 0.37);
 }
 
 body {
@@ -112,7 +112,7 @@ a {
 subtitle {
     font-family: sans-serif;
     font-size: 40px;
-    font-size: calc(40px + 1vw);
+    font-size: calc(35px + 1vw);
     color: #fed136;
     text-shadow: rgba(255,255,255,.1) -1px -1px 1px,rgba(0,0,0,.5) 1px 1px 1px;
 }
@@ -140,4 +140,8 @@ code {
     top: 50%;
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
+}
+
+.ml-auto {
+    background-color: rgba(34, 34, 34, 0.38);
 }
